@@ -9,7 +9,7 @@ const myArray = [-3,8,7,6,5,-4,3,2,1];
 
 
  function sortArray(arr) {
-     return arr.sort( function compElements (a,b) {
+     return arr.sort( function (a,b) {
  
          if (a > b) return 1;
      if (a < b) return -1;
